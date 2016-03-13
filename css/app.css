@@ -10,6 +10,7 @@ nav {
     margin: 45px;
     float: right;
     color: white;
+    font-size: 15px;
 }
 
 nav,
@@ -21,4 +22,20 @@ a{
 logo {
     width: 50px;
     height: 50px;
+}
+
+.contact {
+    border: solid;
+    background-color:#2dbfef;
+    border-radius: 25px;
+
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+    font-family:sans-serif;
+
 }
