@@ -25,7 +25,7 @@ logo {
 }
 
 .contact {
-    border: solid;
+    border: solid rgba(0,0,0,0,);
     background-color:#2dbfef;
     border-radius: 25px;
 
@@ -38,4 +38,13 @@ p {
     margin-top: 30px;
     font-family:sans-serif;
 
+}
+
+.btn {
+    border:solid rgba(0,0,0,0);
+    width: 180px;
+    margin-left: 45%;
+    border-radius: 25px;
+    background-color:#1dd4c6;
+    font-size: 18px
 }
