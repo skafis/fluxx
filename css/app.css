@@ -1,24 +1,24 @@
 .home {
     background-image: url(img/Home5.jpg);
+    /*    background-size: cover;*/
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     height: 100vh;
     width: 100vw;
     margin-left: 20px;
     margin-right: 20px;
-}
-nav {
-    padding: 20px;
-    margin: 45px;
-    float: right;
-    color: white;
-    font-size: 15px;
-}
-nav,
-a {
-    padding: 10px;
-    color: white;
+    position: relative;
+    /*
+    height: 100vh;
+        position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
 }
 logo {
+    margin-top: 10%;
     width: 50px;
     height: 50px;
 }
@@ -27,7 +27,8 @@ logo {
     background-color: #2dbfef;
     border-radius: 25px;
 }
-p {
+.initial_intro {
+    position: absolute;
     color: white;
     text-align: center;
     font-size: 25px;
@@ -61,12 +62,58 @@ p {
     margin: 100px;
 }
 .msg {
+    height: 2rem;
     background-color: red;
     border-radius: 2%;
     width: 100px;
 }
+#example-menu {
+    background-color: transparent;
+}
+.above {
+    display: none;
+}
+#examplez {
+    color: white;
+    background-color: transparent;
+}
+.top-bar {
+    margin-top: -4%;
+    padding: 0.5rem;
+}
+.top-bar a {
+    color: white;
+}
 @media only screen and (max-width: 750px) {
+    .above {
+        display: block;
+    }
+    .under {
+        display: none;
+    }
     p {
         color: black;
     }
+    .top-bar-left {
+        display: none;
+    }
+    #example-menu {
+        background-color: mintcream;
+    }
+    .menu > li:not(.menu-text) > a {
+        color: black;
+    }
+}
+.menu > li:not(.menu-text) > a {
+    display: block;
+    padding: 0rem 0.5rem;
+    line-height: 2;
+}
+.title-bar .menu-icon {
+    margin-left: 1.25rem;
+    margin-right: 0.5rem;
+}
+.title-bar {
+    transition: all .2s ease 0s;
+    display: block;
 }
