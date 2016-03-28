@@ -1,13 +1,11 @@
 .home {
-    background-image:url(img/Home5.jpg);
+    background-image: url(img/Home5.jpg);
     background-size: cover;
     height: 100vh;
     width: 100vw;
     margin-left: 20px;
     margin-right: 20px;
-
 }
-
 nav {
     padding: 20px;
     margin: 45px;
@@ -15,56 +13,60 @@ nav {
     color: white;
     font-size: 15px;
 }
-
 nav,
-a{
+a {
     padding: 10px;
     color: white;
 }
-
 logo {
     width: 50px;
     height: 50px;
 }
-
 .contact {
-    border: solid rgba(0,0,0,0,);
-    background-color:#2dbfef;
+    border: solid rgba(0, 0, 0, 0, );
+    background-color: #2dbfef;
     border-radius: 25px;
-
 }
-
 p {
     color: white;
     text-align: center;
     font-size: 25px;
     margin-top: 30px;
-    font-family:sans-serif;
-
+    font-family: sans-serif;
 }
-
 .btn {
-    border:solid rgba(0,0,0,0);
+    border: solid rgba(0, 0, 0, 0);
     width: 180px;
     margin-left: 45%;
     border-radius: 25px;
-    background-color:#1dd4c6;
+    background-color: #1dd4c6;
     font-size: 18px
 }
-
 .body p {
     text-align: center;
     color: black;
 }
-
-
 .topic {
     font-weight: bold;
     font-size: 30px
 }
-
 .content {
     margin-top: -20px;
     font-size: 16px;
-
+}
+.line {
+    border-top: 1px solid black;
+    height: 30px;
+    width: auto;
+    margin: 100px;
+}
+.msg {
+    background-color: red;
+    border-radius: 2%;
+    width: 100px;
+}
+@media only screen and (max-width: 750px) {
+    p {
+        color: black;
+    }
 }
