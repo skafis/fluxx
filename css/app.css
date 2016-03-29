@@ -28,6 +28,8 @@ logo {
     border-radius: 25px;
 }
 .initial_intro {
+    margin-left: 7%;
+    top: 25%;
     position: absolute;
     color: white;
     text-align: center;
