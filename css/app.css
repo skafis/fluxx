@@ -4,8 +4,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 100vh;
+    height: 130vh;
     width: 100vw;
+    margin-bottom: 20%;
     margin-left: 20px;
     margin-right: 20px;
     position: relative;
@@ -27,13 +28,14 @@ logo {
     background-color: #2dbfef;
     border-radius: 25px;
 }
-.initial_intro {
-    margin-left: 7%;
+.text_initial_intro {
+    padding: 5px 5%;
+    width: 100%;
     top: 25%;
     position: absolute;
     color: white;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-top: 30px;
     font-family: sans-serif;
 }
@@ -54,7 +56,7 @@ logo {
     font-size: 30px
 }
 .content {
-    margin-top: -20px;
+    /*    margin-top: -20px;*/
     font-size: 16px;
 }
 .line {
@@ -64,12 +66,13 @@ logo {
     margin: 100px;
 }
 .msg {
+    padding: 2px;
     text-align: center;
-    margin: -15px auto;
+    margin: -36px auto;
     height: 2rem;
     background-color: red;
     border-radius: 15%;
-    width: 100px;
+    width: 170px;
 }
 #example-menu {
     background-color: transparent;
@@ -107,9 +110,12 @@ logo {
     .menu > li:not(.menu-text) > a {
         color: black;
     }
-    .initial_intro {
+    .text_initial_intro {
         top: 15%;
         font-size: 1.5rem;
+    }
+    .home {
+        height: 100vh;
     }
 }
 .menu > li:not(.menu-text) > a {
