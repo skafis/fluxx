@@ -58,6 +58,7 @@ logo {
 .content {
     /*    margin-top: -20px;*/
     font-size: 16px;
+    text-transform: uppercase;
 }
 .line {
     border-top: 1px solid black;
@@ -113,6 +114,7 @@ logo {
     .text_initial_intro {
         top: 15%;
         font-size: 1.5rem;
+        text-transform: uppercase;
     }
     .home {
         height: 100vh;
