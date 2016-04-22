@@ -6,7 +6,7 @@
     background-position: center center;
     height: 130vh;
     width: 100vw;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
     margin-left: 20px;
     margin-right: 20px;
     position: relative;
@@ -22,6 +22,9 @@ logo {
     margin-top: 10%;
     width: 50px;
     height: 50px;
+}
+.text_initial_intro {
+    text-transform: uppercase;
 }
 .contact {
     border: solid rgba(0, 0, 0, 0, );
